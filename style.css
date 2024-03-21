@@ -1,0 +1,99 @@
+/* Global Css */
+* {
+  margin: auto;
+  background-color: #f1f1f1;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+section {
+  text-align: center;
+}
+
+/* Styiling the the title */
+h1 {
+  background-color: #019b98;
+  color: #fbfbfb;
+  margin-top: 50px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 50px;
+  width: 60%;
+}
+
+/* Styling Form with flexbox */
+form {
+  padding: 50px;
+  width: 60%;
+  margin: auto;
+  background-color: #fbfbfb;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.numSelect {
+  font-weight: bold;
+}
+
+/* userInput div styling */
+.options {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-bottom: 15px;
+  background-color: #fbfbfb;
+}
+
+.radioStyle {
+  display: flex;
+  background-color: #fbfbfb;
+  margin-top: 1em;
+}
+form p,
+label {
+  background-color: #fbfbfb;
+}
+
+
+.radioStyle input {
+  width: 100px;
+  height: 50px;
+  border: 2px solid #014e60;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+}
+
+/* Styling Rolling button */
+.button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #014e60;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #c1ffff;
+}
+
+.button:active {
+  box-shadow: 0 5px #014250;
+  transform: translateY(2px);
+}
+
+/* Styling Dice */
+.diceStyle {
+  display: none;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 50px;
+  background-color: #019b98;
+  color: #fbfbfb;
+  border-radius: 20px;
+  font-size: 80px;
+}
